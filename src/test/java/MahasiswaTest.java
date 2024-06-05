@@ -10,7 +10,7 @@ public class MahasiswaTest {
 	public void testReset() {
 		Mahasiswa testMahasiswa = new Mahasiswa();
 		
-		testMahasiswa.setIpk(3.5);
+		testMahasiswa.setIpk(3.50);
 		testMahasiswa.reset();
 		
 		assertEquals(0.0, testMahasiswa.getIpk(), 0.01);
